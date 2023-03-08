@@ -1,0 +1,1 @@
+SELECT id,name,email,subject,message,date_recieved,reply,reply_sent,id FROM messages WHERE  1 = 1  order by id asc  LIMIT 0, 10

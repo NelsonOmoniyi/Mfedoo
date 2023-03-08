@@ -1,0 +1,1 @@
+SELECT COUNT(id) AS counter FROM messages WHERE  1 = 1  order by id asc
