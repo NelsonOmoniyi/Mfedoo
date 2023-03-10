@@ -78,9 +78,9 @@
 									<li>
 										<a href="project.php">Project</a><i class="ion-ios-plus-empty hidden-md-up"></i>
 									</li>
-									<!-- <li>
-										<a href="blog.php">bolg</a><i class="ion-ios-plus-empty hidden-md-up"></i>
-									</li> -->
+									<li>
+										<a href="blog.php">News</a><i class="ion-ios-plus-empty hidden-md-up"></i>
+									</li>
 									<li>
 										<a href="javascript:avoid(0);">pages</a><i class="ion-ios-plus-empty hidden-md-up"></i>
 										<ul class="sub-nav">

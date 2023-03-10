@@ -69,7 +69,6 @@
 				</p>
 			</div>
 		</div>
-		
 		<!-- Partner Section -->
 		<div id="partner-section" class="ptb ptb-xs-60 gray-bg">
 			<div class="container">
@@ -118,7 +117,24 @@
 				</div>
 			</div>
 		</div>
-
+		
+		<!-- Certification Section -->
+		<div id="partner-section" class="ptb ptb-xs-60 gray-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-lg-12">
+						<div class="block-title v-line mb-35 ">
+							<h2><span>We Are</span> Certified</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-lg-12">
+						<img src="assets/images/service/Certificate.jpeg" alt="Our Certification">
+					</div>
+				</div>
+			</div>
+		</div>
 		    
 
 <?php include("inc/footer.php"); ?>
