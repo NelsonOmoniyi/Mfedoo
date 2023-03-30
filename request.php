@@ -34,7 +34,7 @@
 
                     <!-- Contact FORM -->
                     <form class="quote-form" id="form1" onsubmit="return false">
-                    <input type="hidden" name="op" value="Message.save_message">
+                        <input type="hidden" name="op" value="Message.save_message">
                         <div class="row">
                             <div class="col-md-4 col-lg-4">
                                 <div class="form-field">

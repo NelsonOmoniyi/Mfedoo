@@ -1361,7 +1361,11 @@ form label.error {
 	-webkit-background-size: cover;
 	background-size: cover;
 }
-
+.bg-imgt {
+	background: url(../images/training.jpg) 0 58% no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
 .overlay-before:before {
 	content: '';
 	background: rgba(0, 0, 0, 0.12);

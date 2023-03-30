@@ -1,1 +1,1 @@
-select State from lga where stateid=''
+SELECT COUNT(ref_id) AS counter FROM transactions WHERE  1 = 1  order by ref_id asc

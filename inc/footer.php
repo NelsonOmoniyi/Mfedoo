@@ -46,63 +46,6 @@
 							</li>
 						</ul>
 					</div>
-					<!-- <div class="col-lg-3 col-md-5 col-xs-12 mb-sm-30">
-						<h4 class="mb-30">Latest Blog</h4>
-						<div class="widget-details link">
-							<div class="post-type-post media">
-								<div class="entry-thumbnail media-left">
-									<img src="assets/images/blog/small-img.jpg" alt="Image">
-								</div> -->
-								<!-- /.entry-thumbnail -->
-								<!-- <div class="post-content media-body">
-									<p class="entry-title">
-										<a href="javascript:avoid(0);">minim veniam, quis nostrud exercitation</a>
-									</p>
-									<div class="post-meta">
-										On
-										<time datetime="2018-02-10">
-											10 Feb, 2018
-										</time>
-									</div> -->
-									<!-- /.post-meta -->
-								<!-- </div> -->
-								<!-- /.post-content -->
-							<!-- </div> -->
-							<!-- <div class="post-type-post media">
-								<div class="entry-thumbnail media-left">
-									<img src="assets/images/blog/small-img1.jpg" alt="Image">
-								</div> -->
-								<!-- /.entry-thumbnail -->
-								<!-- <div class="post-content media-body">
-									<p class="entry-title">
-										<a href="javascript:avoid(0);">minim veniam, quis nostrud exercitation</a>
-									</p>
-									<div class="post-meta">
-										On
-										<time datetime="2018-02-10">
-											10 Feb, 2018
-										</time>
-									</div> -->
-									<!-- /.post-meta -->
-								<!-- </div> -->
-								<!-- /.post-content -->
-							<!-- </div>
-						</div>
-					</div> -->
-					<!-- <div class="col-lg-4 col-md-12 col-xs-12 mt-sm-30 mt-xs-15">
-						<div class="newsletter">
-							<h4 class="mb-30">NEWSLETTER SIGNUP</h4>
-							<p>
-								Subscribe to Our Newsletter to get Important News, Amazing Offers & Inside Scoops:
-							</p>
-							<form>
-								<input type="email" class="newsletter-input input-md newsletter-input mb-0" placeholder="Enter Your Email">
-								<button class="newsletter-btn btn btn-xs btn-color" type="submit" value="">
-									<i class="fa fa-angle-right mr-0"></i>
-								</button>
-							</form>
-						</div>
-					</div> -->
 				</div>
 				<!-- End Footer Info -->
 			</div>
@@ -149,9 +92,7 @@
 		<script src="assets/js/custom.js" type="text/javascript"></script>
         <script src="assets/js/jquery.easing.js" type="text/javascript"></script>
 
-
-		<script type="text/javascript" src="../../../../maps.google.com/maps/api/jse8d0?sensor=false&amp;.js"></script>
-
+		
 	</body>
 
 <!--  08:21 GMT -->

@@ -1,0 +1,9 @@
+Logged at 2023-03-30 17:29:51
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/eg1tjn44gc4my6b","access_code":"eg1tjn44gc4my6b","reference":"3si5hpyi16"}}
+
+Logged at 2023-03-30 18:12:58
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/uca8c71bbhbpaat","access_code":"uca8c71bbhbpaat","reference":"ubeyd0mmxy"}}
+
+Logged at 2023-03-30 23:04:07
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/yf47bmx4hm7scnf","access_code":"yf47bmx4hm7scnf","reference":"b1ot3295ag"}}
+

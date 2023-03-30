@@ -1,4 +1,6 @@
-﻿<?php include("inc/header.php"); ?>
+﻿<?php include("inc/header.php");
+
+?>
   
   <!-- Intro Section -->
  <section class="inner-intro bg-img light-color overlay-before parallax-background">

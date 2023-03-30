@@ -8,8 +8,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Mfedoo - Real Estate & Automobiles</title>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 		<link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css">
 		<link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -79,7 +77,7 @@
 										<a href="project.php">Project</a><i class="ion-ios-plus-empty hidden-md-up"></i>
 									</li>
 									<li>
-										<a href="blog.php">News</a><i class="ion-ios-plus-empty hidden-md-up"></i>
+										<a href="training.php">Training</a><i class="ion-ios-plus-empty hidden-md-up"></i>
 									</li>
 									<li>
 										<a href="javascript:avoid(0);">pages</a><i class="ion-ios-plus-empty hidden-md-up"></i>
@@ -87,6 +85,9 @@
 
 											<li>
 												<a href="faq.php">Faq</a>
+											</li>
+											<li>
+										<a href="blog.php">News</a><i class="ion-ios-plus-empty hidden-md-up"></i>
 											</li>
 											<li>
 												<a href="server/login.html">login</a>
