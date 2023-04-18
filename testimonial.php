@@ -40,111 +40,17 @@
 								<div class="text-box">
 									<div class="text-content">
 										<p>
-											Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget..
-											Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget
+											..............................................
 										</p>
 									</div>
 									<div class="box-title">
-										<h4 class="member_say"><span>By</span> Gary jack</h4>
+										<h4 class="member_say"><span>By</span> Somebody</h4>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6 col-lg-6">
-							<div class="about-block dark-gray-bg  padding-40 clearfix">
-								<div class="client-avtar left-pos">
-									<img src="assets/images/user2-160x160.jpg" class="img-responsive" alt="Responsive image">
-								</div>
-								<div class="text-box">
-									<div class="text-content">
-										<p>
-											Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget..
-											Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget
-										</p>
-									</div>
-									<div class="box-title">
-										<h4 class="member_say"><span>By</span> Gary jack</h4>
-									</div>
-								</div>
-							</div>
-						</div>
+						</div> 
 					</div>
-					<div class="row mt-80">
-						<div class="col-md-6 col-lg-6">
-							<div class="about-block dark-gray-bg   padding-40 clearfix">
-								<div class="client-avtar">
-									<img src="assets/images/user2-160x160.jpg" class="img-responsive" alt="Responsive image">
-								</div>
-								<div class="text-box">
-									<div class="text-content">
-										<p>
-											Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget..
-											Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget
-										</p>
-									</div>
-									<div class="box-title">
-										<h4 class="member_say"><span>By</span> Gary jack</h4>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-6">
-							<div class="about-block gray-bg  padding-40 clearfix">
-								<div class="client-avtar left-pos">
-									<img src="assets/images/user2-160x160.jpg" class="img-responsive" alt="Responsive image">
-								</div>
-								<div class="text-box">
-									<div class="text-content">
-										<p>
-											Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget..
-											Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget
-										</p>
-									</div>
-									<div class="box-title">
-										<h4 class="member_say"><span>By</span> Gary jack</h4>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row mt-80">
-						<div class="col-md-6 col-lg-6">
-							<div class="about-block gray-bg   padding-40 clearfix">
-								<div class="client-avtar">
-									<img src="assets/images/user2-160x160.jpg" class="img-responsive" alt="Responsive image">
-								</div>
-								<div class="text-box">
-									<div class="text-content">
-										<p>
-											Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget..
-											Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget
-										</p>
-									</div>
-									<div class="box-title">
-										<h4 class="member_say"><span>By</span> Gary jack</h4>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 col-lg-6">
-							<div class="about-block dark-gray-bg  padding-40 clearfix">
-								<div class="client-avtar left-pos">
-									<img src="assets/images/user2-160x160.jpg" class="img-responsive" alt="Responsive image">
-								</div>
-								<div class="text-box">
-									<div class="text-content">
-										<p>
-											Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget..
-											Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget
-										</p>
-									</div>
-									<div class="box-title">
-										<h4 class="member_say"><span>By</span> Gary jack</h4>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 			<!-- Testimonial section end -->

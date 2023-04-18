@@ -105,11 +105,6 @@ Class Message extends dbobject{
 			array( 'db' => 'subject', 'dt' => 3),
          array( 'db' => 'message', 'dt' => 4 ),
          array( 'db' => 'date_recieved',  'dt' => 5),
-         array( 'db' => 'reply', 'dt' => 6),
-         array( 'db' => 'reply_sent',  'dt' => 7),
-         array( 'db' => 'id', 'dt' => 8, 'formatter' => function($d,$row){
-            return  "<button  class='btn btn-sm btn-danger'>Delete Message</button>&nbsp;|&nbsp;<a class='btn btn-sm btn-warning' >Reply</a>";
-         } )
 			);
 		$filter = "";
 //		$filter = " AND role_id='001'";

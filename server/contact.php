@@ -80,7 +80,7 @@
 										<a href="../project.php">Project</a><i class="ion-ios-plus-empty hidden-md-up"></i>
 									</li>
 									<li>
-										<a href="../blog.php">News</a><i class="ion-ios-plus-empty hidden-md-up"></i>
+										<a href="../training.php">Training</a><i class="ion-ios-plus-empty hidden-md-up"></i>
 									</li>
 									<li>
 										<a href="javascript:avoid(0);">pages</a><i class="ion-ios-plus-empty hidden-md-up"></i>
@@ -88,6 +88,9 @@
 
 											<li>
 												<a href="../faq.php">Faq</a>
+											</li>
+											<li>
+												<a href="../blog.php">News</a>
 											</li>
 											<li>
 												<a href="../server/login.html">login</a>

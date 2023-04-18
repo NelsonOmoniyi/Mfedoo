@@ -1,1 +1,1 @@
-SELECT * FROM role ORDER BY role_name
+select role_name from role where role_id='001'

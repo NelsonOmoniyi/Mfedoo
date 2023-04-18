@@ -643,7 +643,7 @@
 		<!-- Counter Section End-->
 
 		<!--Testimonial Section Start-->
-		<section class="testimonial_wrapper__block padding ptb-xs-40">
+		<!-- <section class="testimonial_wrapper__block padding ptb-xs-40">
 			<div class="container">
 				<div class="row text-center mb-30">
 					<div class="col-sm-12">
@@ -752,7 +752,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!--Testimonial Section End-->
 
 		<!-- Blog -->

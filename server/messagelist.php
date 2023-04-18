@@ -21,9 +21,6 @@ include_once("libs/dbfunctions.php");
                                <th>Subject </th>
                                 <th>Message Body</th>
                                 <th>Date Sent</th>
-                                <th>Initial Reply</th>
-                                <th>Reply Date</th>
-                                <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>

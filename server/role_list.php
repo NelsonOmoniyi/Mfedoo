@@ -25,8 +25,8 @@ include_once("libs/dbfunctions.php");
                                 <th>S/N</th>
                                 <th>Role ID</th>
                                 <th>Role Name</th>
-<!--                                <th>Action</th>-->
                                 <th>Created</th>
+                               <th>Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -83,5 +83,21 @@ include_once("libs/dbfunctions.php");
         $.post(url,{},function(re){
             $('#'+div).html(re);
         })
+    }
+    function deleteRole(id)
+    {
+        let cnf = confirm("Are you sure you want to delete role?");
+        if(cnf == true)
+        {
+          $.blockUI();
+          // alert(id);
+          $.post("utilities.php",{op:"Role.deleteRole",role_id:id},function(re){
+              $.unblockUI();
+              alert(re.response_message);
+              // alert("Successfully Deleted!!!!");
+              getpage('role_list.php',"page");
+          },'json')
+        }
+        
     }
 </script>

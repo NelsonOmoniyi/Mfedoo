@@ -1,1 +1,1 @@
-UPDATE menu SET menu_name='Correspondence',menu_url='#',parent_id='#',icon='' WHERE  menu_id='160' 
+UPDATE menu SET menu_name='Users',menu_url='user_list.php',parent_id='004',icon='' WHERE  menu_id='028' 

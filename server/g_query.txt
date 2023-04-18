@@ -1,1 +1,1 @@
-SELECT ref_id,name,email,mobile,item,amount,confirmation_message,ref_id,channel,currency,date FROM transactions WHERE  1 = 1  order by ref_id asc  LIMIT 0, 10
+SELECT id,name,email,subject,message,date_recieved FROM messages WHERE  1 = 1  order by id asc  LIMIT 0, 10

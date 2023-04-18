@@ -13,7 +13,10 @@ class Role extends dbobject
 			array( 'db' => 'created',     'dt' => 3, 'formatter' => function( $d,$row ) {
 						return $d;
 					}
-				)
+				),
+            array('db' => 'role_id', 'dt' => 4, 'formatter' => function($d,$row){
+                return '<a class="btn btn-warning" onclick="getModal(\'setup/role_setup.php?op=edit&role_id='.$d.'\',\'modal_div\')"  href="javascript:void(0)" data-toggle="modal" data-target="#defaultModalPrimary">Edit Role</a> | <a class="btn btn-danger" onclick="deleteRole(\''.$d.'\')"  href="javascript:void(0)" >Delete Role</a>';
+            })
 			);
 		$filter = "";
 //		$filter = " AND role_id='001'";
@@ -29,6 +32,7 @@ class Role extends dbobject
         {
             $data['created'] = date('Y-m-d h:i:s');
             
+            
             if($data['operation'] == "new")
             {
                 $data['role_id'] = $this->getNextRoleId();
@@ -43,7 +47,15 @@ class Role extends dbobject
                 }
             }else
             {
-                $count = $this->doUpdate('role',$data,array('role_id'=>$data['role_id']));
+                // var_dump($data);
+                // exit;
+                $name = $data['role_name'];
+                $status = $data['role_enabled'];
+                $id = $data['id'];
+                // $count = $this->doUpdate('role',$data,array('role_id'=>$data['role_id']), array('op', 'operation', 'id', 'created'));
+                // var_dump($count);
+                $DSQL = "UPDATE role SET role_name = '$name', role_enabled = '$status' WHERE role_id = '$id'";
+                 $count = $this->db_query($DSQL,false);
                 if($count > 0)
                 {
                     return json_encode(array('response_code'=>0,'response_message'=>'Role Update Successfully')); 
@@ -65,5 +77,13 @@ class Role extends dbobject
         $result = $this->db_query($sql);
         return $result[0]['rolee'];
         
+    }
+    public function deleteRole($data)
+    {
+       
+        $role_id = $data['role_id'];
+        $sql     = "DELETE FROM role WHERE role_id = '$role_id'";
+        $this->db_query($sql,false);
+        return json_encode(array('response_code'=>0,'response_message'=>'Deleted Successfully')); 
     }
 }

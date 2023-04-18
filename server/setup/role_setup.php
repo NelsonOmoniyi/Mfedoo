@@ -2,35 +2,23 @@
 include_once("../libs/dbfunctions.php");
 include_once("../class/menu.php");
 $dbobject = new dbobject();
-$sql = "SELECT DISTINCT(State) as state,stateid FROM lga order by State";
-$states = $dbobject->db_query($sql);
 
-
+// var_dump($_REQUEST);
 
 if(isset($_REQUEST['op']) && $_REQUEST['op'] == 'edit')
 {
     $operation = 'edit';
-    $id = $_REQUEST['id'];
-    $sql_menu = "SELECT * FROM lga_communities WHERE id = '$id' LIMIT 1";
-    $community = $dbobject->db_query($sql_menu);
+    $id = $_REQUEST['role_id'];
+    $sql_menu = "SELECT * FROM role WHERE role_id = '$id' LIMIT 1";
+    $res = $dbobject->db_query($sql_menu);
+    $Role_name = $res[0]['role_name'];
+    // var_dump($id);
 }else
 {
     $operation = 'new';
 }
 ?>
- <link rel="stylesheet" href="codebase/dhtmlxcalendar.css" />
-<script src="codebase/dhtmlxcalendar.js"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-<script>
-    doOnLoad();
-    var myCalendar;
-function doOnLoad()
-{
-   myCalendar = new dhtmlXCalendarObject(["start_date"]);
-    myCalendar.setSensitiveRange(null, "<?php echo date('Y-m-d') ?>");
-   myCalendar.hideTime();
-}
-</script>
+
 <div class="modal-header">
     <h4 class="modal-title" style="font-weight:bold">Role Setup</h4>
     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -46,7 +34,7 @@ function doOnLoad()
            <div class="col-sm-6">
                <div class="form-group">
                     <label class="form-label">Role Name</label>
-                    <input type="text" autocomplete="off" name="role_name" id="role_name" value=""  class="form-control" />
+                    <input type="text" autocomplete="off" name="role_name" id="role_name" value="<?php echo $Role_name; ?>"  class="form-control" />
                 </div>
            </div>          
        <div class="col-sm-6">

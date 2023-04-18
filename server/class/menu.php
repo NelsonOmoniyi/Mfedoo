@@ -179,7 +179,7 @@ class Menu extends dbobject
 			array( 'db' => 'icon',  'dt' => 4 ),
 			array( 'db' => 'menu_id',  'dt' => 5,'formatter' => function( $d,$row ) {
                 
-						return '<a class="btn btn-warning" onclick="getModal(\'setup/menu_setup.php?op=edit&menu_id='.$d.'\',\'modal_div\')"  href="javascript:void(0)" data-toggle="modal" data-target="#defaultModalPrimary">Edit Menu</a>';
+						return '<a class="btn btn-warning" onclick="getModal(\'setup/menu_setup.php?op=edit&menu_id='.$d.'\',\'modal_div\')"  href="javascript:void(0)" data-toggle="modal" data-target="#defaultModalPrimary">Edit Menu</a> | <a class="btn btn-danger" onclick="deleteMenu(\''.$d.'\')"  href="javascript:void(0)" >Delete Menu</a>';
                         
 					} ),
 			array( 'db' => 'created', 'dt' => 6, 'formatter' => function( $d,$row ) {

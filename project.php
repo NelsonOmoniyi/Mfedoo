@@ -22,8 +22,7 @@
 					<div class="row text-center">
         <div class="col-lg-6 offset-lg-3 mb-30">
           <div class="heading-box">
-            <h2><span>Our </span> Project</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <h2><span>Our </span> Projects</h2>
           </div>
           
         </div>
@@ -36,16 +35,10 @@
 								<a class="categories active" data-filter="*">All</a>
 							</li>
 							<li>
-								<a class="categories" data-filter=".branding">Branding</a>
+								<a class="categories" data-filter=".branding">Construction</a>
 							</li>
 							<li>
 								<a class="categories" data-filter=".design">Design</a>
-							</li>
-							<li>
-								<a class="categories" data-filter=".photo">Photo</a>
-							</li>
-							<li>
-								<a class="categories" data-filter=".coffee">coffee</a>
 							</li>
 						</ul>
 					</div>
@@ -57,7 +50,7 @@
 							<div class="item-box">
 								<a> <img alt="1" src="assets/images/project/project_1.jpg" class="item-container"> </a>
 								<div class="link-zoom">
-									<a href="project-details.html" class="project_links"> <i class="fa fa-link"> </i> </a>
+									<a href="project-details.php" class="project_links"> <i class="fa fa-link"> </i> </a>
 									<a href="assets/images/project/project_1.jpg" class="fancylight" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
 								</div>
 								<div class="gallery-heading">
@@ -69,11 +62,11 @@
 							</div>
 						</div>
 
-						<div class="nf-item photo spacing">
+						<!-- <div class="nf-item photo spacing">
 							<div class="item-box">
 								<a> <img alt="1" src="assets/images/project/project_2.jpg" class="item-container"> </a>
 								<div class="link-zoom">
-									<a href="project-details.html" class="project_links"> <i class="fa fa-link"> </i> </a>
+									<a href="project-details.php" class="project_links"> <i class="fa fa-link"> </i> </a>
 									<a href="assets/images/project/project_2.jpg" class="fancylight" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
 								</div>
 								<div class="gallery-heading">
@@ -89,7 +82,7 @@
 							<div class="item-box">
 								<a> <img alt="1" src="assets/images/project/project_3.jpg" class="item-container"> </a>
 								<div class="link-zoom">
-									<a href="project-details.html" class="project_links"> <i class="fa fa-link"> </i> </a>
+									<a href="project-details.php" class="project_links"> <i class="fa fa-link"> </i> </a>
 									<a href="assets/images/project/project_3.jpg" class="fancylight" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
 								</div>
 								<div class="gallery-heading">
@@ -105,7 +98,7 @@
 							<div class="item-box">
 								<a> <img alt="1" src="assets/images/project/project_4.jpg" class="item-container"> </a>
 								<div class="link-zoom">
-									<a href="project-details.html" class="project_links"> <i class="fa fa-link"> </i> </a>
+									<a href="project-details.php" class="project_links"> <i class="fa fa-link"> </i> </a>
 									<a href="assets/images/project/project_4.jpg" class="fancylight" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
 								</div>
 								<div class="gallery-heading">
@@ -121,7 +114,7 @@
 							<div class="item-box">
 								<a> <img alt="1" src="assets/images/project/project_5.jpg" class="item-container"> </a>
 								<div class="link-zoom">
-									<a href="project-details.html" class="project_links"> <i class="fa fa-link"> </i> </a>
+									<a href="project-details.php" class="project_links"> <i class="fa fa-link"> </i> </a>
 									<a href="assets/images/project/project_5.jpg" class="fancylight" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
 								</div>
 								<div class="gallery-heading">
@@ -137,7 +130,7 @@
 							<div class="item-box">
 								<a> <img alt="1" src="assets/images/project/project_6.jpg" class="item-container"> </a>
 								<div class="link-zoom">
-									<a href="project-details.html" class="project_links"> <i class="fa fa-link"> </i> </a>
+									<a href="project-details.php" class="project_links"> <i class="fa fa-link"> </i> </a>
 									<a href="assets/images/project/project_6.jpg" class="fancylight" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
 								</div>
 								<div class="gallery-heading">
@@ -147,7 +140,7 @@
 									</p>
 								</div>
 							</div>
-						</div>
+						</div> -->
 
 					
 					</div>
